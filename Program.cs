@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 
 namespace C_sharp_basics_demo
 {
     class Program
     {
-       static void printVariable(String nombreVariable, Object variable, Type tipoVariable){  //metodo para devolver nombre y tipo
+       static void PrintVariable(String nombreVariable, Object variable, Type tipoVariable){  //metodo para devolver nombre y tipo
 
          Console.WriteLine($"Nombre: {nombreVariable}, Valor: {variable}, Tipo: {tipoVariable} ");
            
@@ -24,24 +24,24 @@ namespace C_sharp_basics_demo
         static void Main(string[] args)
         {
            
-           int VariableInt=5; 
-           long VariableLong=76876;
-           float VariableFloat=5.78f;
-           double VariableDouble=687.9;
-           decimal VariableDecimal=545.777m;
-           char VariableChar='A';
-           string VariableString="Hola";
-           Boolean VariableBoolean=true;
+           int variableInt=5; 
+           long variableLong=76876;
+           float variableFloat=5.78f;
+           double variableDouble=687.9;
+           decimal variableDecimal=545.777m;
+           char variableChar='A';
+           string variableString="Hola";
+           Boolean variableBoolean=true;
 
 
-            printVariable(nameof(VariableInt),VariableInt,VariableInt.GetType());
-            printVariable(nameof(VariableLong),VariableLong,VariableLong.GetType());
-            printVariable(nameof(VariableFloat),VariableFloat,VariableFloat.GetType());
-            printVariable(nameof(VariableDouble),VariableDouble,VariableDouble.GetType());
-            printVariable(nameof(VariableDecimal),VariableDecimal,VariableDecimal.GetType());
-            printVariable(nameof(VariableChar),VariableChar,VariableChar.GetType());
-            printVariable(nameof(VariableString),VariableString,VariableString.GetType());
-            printVariable(nameof(VariableBoolean),VariableBoolean,VariableBoolean.GetType());
+            PrintVariable(nameof(variableInt),variableInt,variableInt.GetType());
+            PrintVariable(nameof(variableLong),variableLong,variableLong.GetType());
+            PrintVariable(nameof(variableFloat),variableFloat,variableFloat.GetType());
+            PrintVariable(nameof(variableDouble),variableDouble,variableDouble.GetType());
+            PrintVariable(nameof(variableDecimal),variableDecimal,variableDecimal.GetType());
+            PrintVariable(nameof(variableChar),variableChar,variableChar.GetType());
+            PrintVariable(nameof(variableString),variableString,variableString.GetType());
+            PrintVariable(nameof(variableBoolean),variableBoolean,variableBoolean.GetType());
 
         int num1=36, num2=4;
 
@@ -73,3 +73,4 @@ namespace C_sharp_basics_demo
         }
     }
 }
+
